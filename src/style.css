@@ -18,6 +18,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -48,7 +49,7 @@ p {
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
@@ -72,4 +73,22 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+    line-height: 2;
+  }
+   h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
