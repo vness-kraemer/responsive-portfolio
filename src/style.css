@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #24527a;
+  --secondary-color: #e0ebeb;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -121,6 +121,12 @@ p {
   max-height: auto;
 }
 
+.text-left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -189,6 +195,21 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.github-button {
+  padding: 10px 40px;
+}
+
+.github-icon {
+  font-size: 25px;
+}
+
+.contact-me {
+  display: flex;
+  align-items: center;
+}
+
+
+/* MEDIA QUERY SECTION  */
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
@@ -214,4 +235,8 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+.github-button {
+  padding: 10px 30px;
+}
+
 }
