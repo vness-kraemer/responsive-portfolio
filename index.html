@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vanessa is a front-end engineer, based in Germany, Aachen."
+    />
+    <title>Front-end Developer - Vanessa Krämer</title>
     <!-- Google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,37 +34,36 @@
     ></script>
     <!-- Stylesheet  -->
     <link rel="stylesheet" href="./src/style.css" />
-    <title>Vanessa Krämer</title>
   </head>
   <!-- ------------------BODY----------------------- -->
   <body>
     <!-- ------------------NAV-BAR----------------------- -->
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="./index.html">
+        <a href="./index.html" title="Homepage">
           <img
             src="./images/logo-big.png"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Vanessa Logo"
           />
           <img
             src="./images/logo-small-vk.png"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Vanessa Logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="./index.html" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="./about.html"> About</a>
+            <a href="./about.html" title="About me"> About</a>
           </li>
           <li>
-            <a href="./work.html"> Work</a>
+            <a href="./work.html" title="My Work"> Work</a>
           </li>
           <li>
-            <a href="./contact.html"> Contact</a>
+            <a href="./contact.html" title="Contact me"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -70,7 +74,9 @@
       <h1>Vanessa Krämer</h1>
       <h2 class="mb-5">Front-end developer based in Germany 🇩🇪</h2>
       <div>
-        <a href="./contact.html" class="btn btn-branding">Contact me</a>
+        <a href="./contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -94,7 +100,13 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline"> Learn more</a>
+            <a
+              href="./work.html"
+              class="btn btn-branding-outline"
+              title="Learn more about this project!"
+            >
+              Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -110,20 +122,34 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline"> Learn more</a>
+            <a
+              href="./work.html"
+              class="btn btn-branding-outline"
+              title="Learn more about this Project!"
+            >
+              Learn more</a
+            >
           </div>
         </div>
         <!-- start of the second col  -->
 
         <div class="col d-none d-lg-block">
-          <img src="./images/weather-app.png" class="img-fluid" alt="" />
+          <img
+            src="./images/weather-app.png"
+            class="img-fluid"
+            alt="Snapshop of my weather app."
+          />
         </div>
       </div>
       <!-- start of the row dictionary -->
       <div class="row mb-5">
         <!-- start of the first col  -->
         <div class="col d-none d-lg-block">
-          <img src="./images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="./images/dictionary.png"
+            class="img-fluid"
+            alt="Snapshot of my project."
+          />
         </div>
         <!-- start of the second col  -->
         <div class="col">
@@ -135,37 +161,67 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline"> Learn more</a>
+            <a
+              href="./work.html"
+              class="btn btn-branding-outline"
+              title="Learn more about this project."
+            >
+              Learn more</a
+            >
           </div>
         </div>
       </div>
+      <!-- ------------------FOOTER----------------------- -->
       <footer>
-
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
-          <h4>Work Inquiry</h4>
-          <p class="text-muted">Let's work together!</p>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-          <a href="" class="btn btn-branding">Contact me</a>
-        </div>
+            <a
+              href="./contact.html"
+              class="btn btn-branding"
+              title="Get in touch with me!"
+              >Contact me</a
+            >
+          </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:vanessa.josy@icloud.com" class="email-link"
+          <a
+            href="mailto:vanessa.josy@icloud.com"
+            class="email-link"
+            title="Email Vanessa."
             >vanessa.josy@icloud.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://github.com/vness-kraemer" target="_blank">
+          <a
+            href="https://github.com/vness-kraemer"
+            target="_blank"
+            title="My GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/vanessa-josy/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/vanessa-josy/"
+            target="_blank"
+            title="My LinkedIN Profile"
+          >
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://www.instagram.com/vness_josy/" target="_blank">
+          <a
+            href="https://www.instagram.com/vness_josy/"
+            target="_blank"
+            title="My Instagram Account"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
+        <p class="text-center mt-4">
+          This project was coded by Vanessa, and it is
+          <a href="www.github.com">open-sourced.</a>
+        </p>
       </footer>
     </div>
   </body>
